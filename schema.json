@@ -1,0 +1,21 @@
+{
+	"fields": [
+		{
+			"name": "WeekBeginning",
+			"title": "WeekBeginning",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#date",
+                                "datePattern": "%d/%m/%Y"
+			}
+		},
+		{
+			"name": "AveragePerDay",
+			"title": "AveragePerDay",
+			"constraints": {
+				"required": true,
+				"type": "http://www.w3.org/2001/XMLSchema#int"
+			}
+		}
+	]
+}
